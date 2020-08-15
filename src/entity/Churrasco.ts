@@ -19,25 +19,25 @@ export default class Churrasco extends BaseEntity {
    @Column()
    data: Date;
 
-   @Column()
+   @Column({ default: false })
    carne_bovina: Boolean;
 
-   @Column()
+   @Column({ default: false })
    carne_suina: Boolean;
 
-   @Column()
+   @Column({ default: false })
    carne_frango: Boolean;
 
-   @Column()
+   @Column({ default: false })
    salada_verde: Boolean;
 
-   @Column()
+   @Column({ default: false })
    pao: Boolean;
 
-   @Column()
+   @Column({ default: false })
    arroz: Boolean;
 
-   @Column()
+   @Column({ default: false })
    maionese: Boolean;
 
    @Column()
